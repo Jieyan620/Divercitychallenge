@@ -1,0 +1,117 @@
+*{
+  color: #f1f1f1;
+}
+
+.logincard{
+  width: 600px;
+  position: relative;
+   
+}
+
+.logincard .logbackground{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 601px;
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.logincard .inputcard{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ text-shadow: 2px 2px #222222;
+}
+
+.inputcard form {
+  border: 1px solid #222222;
+  box-shadow: 4px 5px #888888;
+  height: 520px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+
+button {
+  background-color: #222222;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 1;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  padding: 10px 18px;
+  background-color: #86261f;
+}
+
+/* Center the avatar image inside this container */
+.logcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  width: 600px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
