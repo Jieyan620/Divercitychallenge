@@ -23,7 +23,7 @@
   
 }
 
-hr {
+.loginhr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
@@ -76,7 +76,7 @@ button:hover {
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
-  padding: 10px 18px;
+  padding: 14px 20px;
   background-color: #86261f;
 }
 

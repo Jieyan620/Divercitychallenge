@@ -1,3 +1,31 @@
-h2 {
-  color: blueviolet;
+.jobtext{
+  color: black;
+}
+
+.jobCard{
+  padding: 10px 16px 10px 16px;
+  transition: 0.3s;
+  margin: 4px;
+}
+
+.jobContainer {
+padding: 5px;
+}
+
+.jobtitle{
+  display: grid;
+  grid-template-columns:5fr 1fr ;
+}
+
+.jobapply{
+  background-color: #86261f;
+  width: 70%;
+  margin: 0;
+  font-size: 20px;
+  padding: 0;
+  box-shadow: 2px 2px rgb(36, 2, 2);
+}
+
+.discription{
+  width: 90%;
 }

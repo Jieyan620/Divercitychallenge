@@ -1,8 +1,4 @@
 
-* {
-  box-sizing: border-box;
-}
-
 .registercard{
   width: 600px;
   position: relative;
@@ -17,7 +13,7 @@
   justify-content: center;
   text-align: center;
   width: 633px;
-  height: 567px;
+  height: 610px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +59,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Overwrite default styles of hr */
-hr {
+.regihr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
@@ -78,6 +74,11 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+}
+
+.regicancelbtn {
+  padding: 16px 20px;
+  background-color: #86261f;
 }
 
 .registerbtn:hover {

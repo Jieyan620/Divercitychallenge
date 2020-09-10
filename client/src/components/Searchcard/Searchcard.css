@@ -1,6 +1,7 @@
 
 .searchSection{
   position: relative;
+  border: 3px solid rgb(19, 17, 17);
 }
 
 .background{

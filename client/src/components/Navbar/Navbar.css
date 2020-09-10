@@ -1,20 +1,13 @@
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .nav{
-  background: #222222;
+  background: rgb(19, 17, 17);
   padding: 10px 40px 10px 40px;
   border: 1px solid #000;
   border-left: none;
   border-right: none;
 }
 
-ul{
+.navUl{
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -23,6 +16,7 @@ ul{
 }
 
 .logo{
+  display: inline-block;
   flex: 1;
   font-size: 30px;
   font-weight: 700;
@@ -30,11 +24,13 @@ ul{
 }
 
 .pages{
+  float: right;
   display: inline-flex;
   padding: 0 5px;
+  margin-top: 10px;
 }
 
-h4{
+.linkpage{
  text-decoration: none;
  font-size: 18px;
  padding: 0 12px;

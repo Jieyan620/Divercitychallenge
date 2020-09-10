@@ -1,3 +1,29 @@
-h2 {
-  color: blueviolet;
+
+.sideTitle{
+  width: 100%;
+  background-color: rgb(19, 17, 17);
+  border-top: 1px solid blanchedalmond;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+
+.sideCard{
+  padding: 10px 16px 10px 16px;
+  background-color:#222222;
+  transition: 0.3s;
+  border: 1px solid blanchedalmond;
+  margin: 4px;
+  font-weight: bolder;
+  text-shadow: 2px 2px #000000;
+}
+
+.sideCard:hover {
+  background-color:rgb(19, 17, 17);
+  cursor: pointer;
+}
+
+.sideContainer {
+padding: 5px;
 }

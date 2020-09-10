@@ -1,5 +1,8 @@
 import React from 'react'
 import './Register.css'
+import {
+  Link
+} from 'react-router-dom'
 
 const Register = () => {
   const divStyle = {
@@ -18,18 +21,21 @@ const Register = () => {
                 <p>Please fill in this form to create an account.</p>
                 <hr />
               </div>
-              <label for="email"><b>Email</b></label>
+              <label htmlFor="email"><b>Email</b></label>
               <input type="text" placeholder="Enter Email" name="email" id="email" required />
 
-              <label for="psw"><b>Password</b></label>
+              <label htmlFor="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
 
-              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <label htmlFor="psw-repeat"><b>Repeat Password</b></label>
               <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required />
-              <hr />
+              <hr className="regihr"/>
 
               <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
               <button type="submit" className="registerbtn">Register</button>
+              <Link to={`/`}>
+              <button type="button" className="regicancelbtn">Cancel</button>
+              </Link>
             </div>
 
             <div className="container signin">
