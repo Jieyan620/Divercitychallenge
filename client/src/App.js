@@ -40,14 +40,18 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar />
+        <div className="nav">
+          <Navbar />
+        </div>
         <Switch>
 
-          <div className="body">
-            <Route exact path="/">
+          <Route exact path="/"  >
+            <Redirect to="/job" />
+          </Route>
+          <Route exact path="/job"  >
+            <div className="body">
               <Searchcard />
               <div className="mainWrapper">
-
                 <div className="sidebar">
                   <div className="sideTitle">
                     <h2>Jobs For You :</h2>
@@ -57,20 +61,44 @@ const App = () => {
                   </ul>
                 </div>
                 <div className="maincard">
-                  <Route path="/job/:jobId" >
-                    <Jobcard userState={userState} />
-                  </Route>
+                  <h3>welcome</h3>
                 </div>
-
               </div>
-            </Route>
-            <Route path="/login">
+            </div>
+          </Route>
+
+          <Route path="/job/:jobId" >
+            <div className="body">
+              <Searchcard />
+              <div className="mainWrapper">
+                <div className="sidebar">
+                  <div className="sideTitle">
+                    <h2>Jobs For You :</h2>
+                  </div>
+                  <ul>
+                    <Sidecard userState={userState} />
+                  </ul>
+                </div>
+                <div className="maincard">
+                  <Jobcard userState={userState} />
+                </div>
+              </div>
+            </div>
+
+
+          </Route>
+
+          <Route path="/login">
+            <div className="lore">
               <Login />
-            </Route>
-            <Route path="/register">
-              <Register />
-            </Route>
-          </div>
+            </div>
+          </Route>
+
+          <Route path="/register">
+            <div className="lore">
+            <Register />
+            </div>
+          </Route>
 
         </Switch>
       </Router>

@@ -24,6 +24,7 @@ const Jobcard = (props) => {
                   <button className="jobapply">Apply</button>
                 </div>
                 <hr className="jobhr" />
+                <hr className="jobhr" />
                 <div className="jobContainer">
                   <h2 className="jobtext">Company : {job.company}</h2>
                   <br />

@@ -5,7 +5,11 @@
 .logincard{
   width: 600px;
   position: relative;
-   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  
 }
 
 .logincard .logbackground{
@@ -20,7 +24,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  border-radius: 10px;
 }
 
 .loginhr {
@@ -34,13 +38,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- text-shadow: 2px 2px #222222;
+  text-shadow: 2px 2px #222222;
 }
 
 .inputcard form {
   border: 1px solid #222222;
   box-shadow: 4px 5px #888888;
   height: 520px;
+  border-radius: 10px;
 }
 
 /* Full-width inputs */

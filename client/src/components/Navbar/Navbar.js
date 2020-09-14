@@ -10,7 +10,9 @@ const Navbar = () => {
 
       <div className="nav">
         <ul className="nanUl">
+          <Link to={`/`}>
           <li className="logo">Divercity</li>
+          </Link>
           <div className="pages">
             <Link to={`/login`}>
               <li><h4 className="linkpage">Login</h4></li>

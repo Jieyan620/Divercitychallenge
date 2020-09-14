@@ -27,8 +27,8 @@ const Register = () => {
               <label htmlFor="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
 
-              <label htmlFor="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required />
+              <label htmlFor="psw-repeat"><b>Your Name</b></label>
+              <input type="text" placeholder="Enter Your Name" name="name" id="name" required />
               <hr className="regihr"/>
 
               <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
